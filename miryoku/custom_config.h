@@ -7,5 +7,7 @@ U_MT(LGUI, N),     U_MT(LALT, R),     U_MT(LCTRL, T),    U_MT(LSHFT, D),    &kp 
 U_LT(U_BUTTON, X), U_MT(RALT, Q),     &kp V,             &kp Q,             &kp W,             &kp SEMI,          &kp K,             &kp SQT,           U_MT(RALT, SLASH), U_LT(U_BUTTON, DOT),\
 U_NP,              U_NP,              U_LT(U_MEDIA, DEL),U_LT(U_NAV, S),    U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, SPACE),U_LT(U_FUN, BSPC), U_NP,              U_NP
 
+#define MIRYOKU_EXTRA_BUNYA
+
 #if defined (MIRYOKU_EXTRA_BUNYA)
   #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_BUNYA
