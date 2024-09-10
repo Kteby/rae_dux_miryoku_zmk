@@ -8,7 +8,3 @@ U_LT(U_BUTTON, X), U_MT(RALT, Q),     &kp V,             &kp G,             &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, S),    U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, SPACE),U_LT(U_FUN, BSPC), U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA MIRYOKU_ALTERNATIVES_BASE_BUNYA
-
-&mouse_ps2_input_listener {
-    status = "okay";
-};
