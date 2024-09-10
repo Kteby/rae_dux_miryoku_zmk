@@ -57,3 +57,12 @@ MIRYOKU_LAYER_LIST
 #else
   #include "miryoku_behaviors.dtsi"
 #endif
+
+/ {
+    mouse_ps2_input_listener: mouse_ps2_input_listener {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+
+        device = <&mouse_ps2>;
+    };
+};
